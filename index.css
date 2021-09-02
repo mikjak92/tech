@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800;900&display=swap');
+
+*{
+    font-family: 'Nunito', sans-serif;
+    margin:0px; padding:0px
+}
+
+.container {
+    margin: 20px 100px
+}
+
+/* Navbar Section */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar .logo {
+    font-size: 30px;
+}
+
+.navbar .logo .food {
+    font-weight: 800;
+}
+
+.navbar .menu a {
+    margin: 0px 15px;
+    line-height: 50px;
+    color: rgb(37, 37, 37);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+
+/* Hero Section */
+.hero_section {
+    margin: 80px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero_section p{
+    font-weight: lighter;
+}
+
+.hero_section h1 {
+    color: #272727;
+    letter-spacing: 0.5px;
+    font-size: 60px;
+    font-weight: 800;
+    margin: 10px 0px;
+}
+
+.hero_section .content {
+    color: #676767;
+    font-family: inherit;
+    font-size: 16px;
+    width: 34rem;
+    line-height: 26px;
+}
+
+.hero_section button {
+    padding: 11px 23px;
+    border-radius: 100px;
+    border: 2px solid #f7b614;
+    font-size: 14px;
+}
+
+.hero_section .btn_1 {
+    color: #f7b614;
+    transition: 0.5s;
+}
+
+.hero_section .btn_1:hover {
+    background-color: #f7b614;
+    color: white
+}
+
+.hero_section .btn_2{
+    background-color: #f7b614;
+    color: white;
+    transition: 0.5s
+}
+
+.hero_section .btn_2:hover{
+    background-color: #ff4800;
+    border-color: #ff4800;
+}
+
+
+
+
+/* Cards section */
+.popular_goods {
+    background-color: #F7F7F7;
+    padding: 3rem 0px
+}
+
+.cards_section {
+    display: flex;
+    text-align: align;
+    justify-content: center;
+}
+
+.cards_section .card-body .fa-star {
+    color: #F7B614
+}
+
+.cards_section .card-body p {
+    font-size: 14px;
+    color: #565656;
+    margin: 10px 0px
+}
+
+.cards_section .card-body h2 {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.cards_section .card-footer  b {
+    font-size: 19px;
+    font-weight: 700;
+}
+
+
+/* How it works */
+
+.popular_goods .card-header .fa {
+    padding: 20px;
+    border: 2px solid #F7B614;
+    border-radius: 100px;
+    height: 20px;
+    width: 20px;
+    line-height:17px;
+    color: #F7B614;
+}
+
+
+/* 4th section */
+.hero_section ul li {
+    list-style: none;
+    line-height:32px;
+    font-weight: 800;
+    font-size: 15px;
+}
+.hero_section ul li .fa {
+    color: #F7B614;
+    font-size: 13px;
+    margin-right: 4px;
+}
+
+
+/* footer */
+footer {
+    background-color: #282932;
+    padding: 5rem 1px;
+    text-align: center;
+}
+
+footer .logo {
+    font-size: 45px;
+    color: white
+}
+
+footer .logo .food {
+    font-weight: 800;
+    color: #F7B614;
+}
+
+footer p {
+    color: #adacac;
+    width: 38rem
+}
+
+footer .links a {
+    width: 50px;
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50px;
+    background: #F7B614;
+    margin: 0px 4px;
+    transition: 0.5s;
+    color: #282932
+}
+
+footer .links a:hover{
+    background-color: #ff4900;
+}
+
+footer .links a:hover .fa{
+    color: white
+}
