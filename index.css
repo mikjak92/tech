@@ -2,11 +2,15 @@
 
 *{
     font-family: 'Nunito', sans-serif;
-    margin:0px; padding:0px
+    margin:0px; padding:0px;
+  
+
 }
 
 .container {
-    margin: 20px 100px
+    margin: 20px 100px;
+    color: #f7b614;
+    
 }
 
 /* Navbar Section */
@@ -15,12 +19,14 @@
     justify-content: space-between;
 }
 
+
 .navbar .logo {
     font-size: 30px;
 }
 
 .navbar .logo .food {
-    font-weight: 800;
+    font-weight: 1000;
+    
 }
 
 .navbar .menu a {
@@ -44,13 +50,16 @@
     font-weight: lighter;
 }
 
+}
 .hero_section h1 {
     color: #272727;
     letter-spacing: 0.5px;
     font-size: 60px;
     font-weight: 800;
     margin: 10px 0px;
+    
 }
+
 
 .hero_section .content {
     color: #676767;
@@ -138,6 +147,7 @@
 
 
 /* 4th section */
+
 .hero_section ul li {
     list-style: none;
     line-height:32px;
